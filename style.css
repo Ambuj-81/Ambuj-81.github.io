@@ -21,22 +21,16 @@ body {
 
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 700px) {
   body {
 
-    background-image: url(images/mo6.jpg);
-    background-position: center center;
 
 
-    background-repeat: no-repeat;
-
-
-    background-attachment: fixed;
-
-
-    background-size:cover;
-
-
-    background-color:#464646;
-
+    background: url(images/mu6.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
 	}
